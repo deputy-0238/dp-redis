@@ -9,4 +9,4 @@
 ### 1. 缓存穿透(Cache Penetration) -- 对于不存在数据访问的预防。
 ### 2. 缓存雪崩(Cache Breakdown) -- 对于redis发生意外时的预防
 ### 3. 缓存击穿(Cache Avalanche) -- 对于热点key重构时，可能发生的意外
-&emsp;&emsp;&emsp;&emsp;解决方法：互斥锁，逻辑过期    
+&emsp;&emsp;&emsp;解决方法：互斥锁，逻辑过期    
